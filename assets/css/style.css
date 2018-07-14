@@ -69,20 +69,23 @@ body {
 }
 .topo2int {
 	width:100%;
-	max-width:1040px;
-	height:95px;
+	max-width:1070px;
+	height:160px;
 	margin:auto;
+	background-color:#347ab9;
 }
 .topologo {
-	width:230px;
 	height:95px;
 	float:left;
 	margin-top:5px;
 }
 .topobaixo .banner {
-	width:650px;
+	width:500px;
 	height:80px;
 	float:right;
 	margin-top:7px;
-	background-color:red;
+	text-align:center;
+}
+.Nome {
+	font-size:72px;
 }
