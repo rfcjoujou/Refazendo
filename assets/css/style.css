@@ -5,7 +5,6 @@ body {
 }
 .topotot {
 	height:30px;	
-	display:flex;
 	background-color:#333;
 }
 .topoint{
@@ -20,10 +19,12 @@ body {
 	float:left;
 }
 .toporede {
-	float:right;
 	width:50%;
-	height:30px;
-	background-color:green;
+	height:28px;
+	float:right;
+	color:#FFF;
+	text-align:right;
+	margin-top:2px;
 } 
 .topoinf ul {
 	margin:0px;
@@ -44,4 +45,44 @@ body {
 }
 .topoinf li .ativo {
 	color:blue;
+}
+.toporede li {
+	list-style:none;
+}
+.toporede a {
+	float:right;
+}
+.toporede input {
+	float:right;
+}
+.toporede img {
+	margin-right:4px;
+}
+.topobusca {
+	width:110px;
+	height:26px;
+	outline:0;
+}
+.topobaixo {
+	height:95px;
+	color:#000;
+}
+.topo2int {
+	width:100%;
+	max-width:1040px;
+	height:95px;
+	margin:auto;
+}
+.topologo {
+	width:230px;
+	height:95px;
+	float:left;
+	margin-top:5px;
+}
+.topobaixo .banner {
+	width:650px;
+	height:80px;
+	float:right;
+	margin-top:7px;
+	background-color:red;
 }
