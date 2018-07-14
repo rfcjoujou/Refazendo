@@ -1,0 +1,47 @@
+body {
+	margin:0;
+	font-family:Arial;
+	font-size:12px;
+}
+.topotot {
+	height:30px;	
+	display:flex;
+	background-color:#333;
+}
+.topoint{
+	width:100%;
+	max-width:1040px;
+	height:30px;
+	margin:auto;
+}
+.topoinf {
+	width:50%;
+	height:30px;
+	float:left;
+}
+.toporede {
+	float:right;
+	width:50%;
+	height:30px;
+	background-color:green;
+} 
+.topoinf ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+
+}
+.topoinf li {
+	float:left;
+	height:30px;
+	line-height:30px;
+	margin-left:8px;
+	margin-right:8px;
+}
+.topoinf li a{
+	text-decoration:none;
+	color:#FFF;
+}
+.topoinf li .ativo {
+	color:blue;
+}
