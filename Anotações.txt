@@ -1,0 +1,36 @@
+Para agente criar o quadradinho usamos propriedades do css:
+ficou assim: criamos a div class="submenu" dentro do li.
+
+.menu li:hover .submenu {
+	display:block;
+}
+
+.submenu {
+	width:150px;
+	height:150px;
+	background-color:black;
+	position:absolute;
+	display:none;
+}
+
+Dava de fazer com javascript
+
+se fosse por javascript agente colocava na div onmovemouse="passou"()
+
+e dentro do javascript : function passou()
+{
+ var submenu = display:block;
+
+}
+
+
+
+
+
+
+CREDITOS PARA QUEM FEZ AS IMAGES:
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/yannick" title="Yannick">Yannick</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>

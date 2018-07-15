@@ -5,7 +5,7 @@ body {
 }
 .topotot {
 	height:30px;	
-	background-color:#333;
+	background-color:#292e32;
 }
 .topoint{
 	width:100%;
@@ -64,6 +64,7 @@ body {
 	outline:0;
 }
 .topobaixo {
+	margin-top:5px;
 	height:95px;
 	color:#000;
 }
@@ -72,9 +73,10 @@ body {
 	max-width:1070px;
 	height:160px;
 	margin:auto;
-	background-color:#347ab9;
+	background-color:#1b619f;
 }
 .topologo {
+	width:300px;
 	height:95px;
 	float:left;
 	margin-top:5px;
@@ -89,3 +91,51 @@ body {
 .Nome {
 	font-size:72px;
 }
+.menu {
+	width:100%;
+	margin-top:75px;
+	height:40px;
+	background-color:#0c0d0e;
+
+}
+.menuinterno {
+	width:1070px;
+	height:40px;
+	margin-left:100px;
+}
+.menuinterno li a {
+	text-decoration:none;
+	color:#FFF;
+	font-size:17px;
+	font-family:cursive;
+}
+.menuinterno li {
+	list-style:none;
+	float:left;
+	padding-right:10px;
+	padding-left:10px;
+	line-height:40px;
+}
+.menu li:hover .submenu {
+	display:block;
+}
+.submenu {
+	width:150px;
+	background-color:#0c0d0e;
+	position:absolute;
+	display:none;
+}
+.submenuitem {
+	width:140px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+
+}
+.submenuitem:hover {
+	background-color:#7793ab;
+}
+.topoconteudo {
+	background-color:red;
+}
+
