@@ -135,7 +135,58 @@ body {
 .submenuitem:hover {
 	background-color:#7793ab;
 }
-.topoconteudo {
-	background-color:red;
+.bordar{
+	width:140px;
+	height:100%;
+	float:left;
+	background-color:blue;
 }
+.container {
+	display:block;
+}
+.containerint {
+	width:100%;
+	max-width:1070px;
+	margin-left:95px;
+	background-color:red;
+	display:flex;
+}
+.coontainerint img {
+	margin-top:-3px;
+	margin-left:140px;
+	width:1070px;
+	height:400px;
+	float:left;
+	margin:auto;
+	position:absolute;
+}
+.titulo {
+	font-size:30px;
+	margin-top:15px;
+	font-family:Hamster;
+	height:67px;
+} 
+.slide {
+	margin-top:0px;
+	margin-left:140px;
+	width:1070px;
+	height:400px;
+	background-color:red;
+	position:absolute;
+}
+.texto {
+	float:left;
+	width:370px;
+	height:397px;
+	margin-left:30px;
+	margin-top:0px;
+	position:absolute;
+	color:black;
+}
+.stexto {
+	margin-top:170px;
+	font-size:25px;
+	color:black;
+	font-family:Hamster;
 
+}
